@@ -55,7 +55,7 @@ const App = () => {
         <MovieModal movie={selectedMovie} onClose={handleCloseModal} />
       )}
 
-      <Toaster position="top-right" />
+      <Toaster position="top-center" />
     </div>
   );
 };
